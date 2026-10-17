@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Form</title>
+</head>
+
+<body>
+    <h1 align="center">Hotel Booking Form</h1>
+    <form action="#" method="post" align="center">
+        <!-- Full Name -->
+        <label for="Full Name">Full Name:</label>
+        <input type="text" id="full Name" name="full name" required>
+        <br><br>
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <!-- Phone Number -->
+        <label for="phone number">Phone Number:</label>
+        <input type="tel" id="phone number" name="phone number" required>
+        <br><br>
+        <!-- Check-in-Date -->
+        <label for="checkin">Check-in-Date:</label>
+        <input type="date" id="checkin" name="checkin" required>
+        <br><br>
+        <!-- Check-Out-Date -->
+        <label for="checkout">Check-Out-Date:</label>
+        <input type="date" id="checkout" name="checkout" required>
+        <br><br>
+        <!-- Room Type -->
+        <label for="room type">Room Type:</label>
+        <select id="room type" name="room type">
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="deluxe">Deluxe</option>
+        </select>
+        <br><br>
+        <!-- Number of Guests -->
+        <label for="number of guests">Number of Guests:</label>
+        <input type="number" id="number of guests" name="number of guests">
+        <br><br>
+        <!-- Special Requests -->
+        <label for="request">Special Requests:</label>
+        <br>
+        <textarea id="request" name="request" rows="4" cols="30" placeholder="Enter your request here"></textarea>
+        <br><br>
+        <!-- Buttons -->
+        <button type="submit">Book Now</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+
+</html>
